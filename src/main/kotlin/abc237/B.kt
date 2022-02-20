@@ -1,7 +1,8 @@
 package abc237
 
+val s = { readLine()!!.split(' ').map(String::toInt) }
+
 fun main() {
-  val s = { readLine()!!.split(' ').map(String::toInt) }
   val (h, w) = s()
   val m = (1..h).map { s() }
 
