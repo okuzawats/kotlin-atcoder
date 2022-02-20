@@ -2,7 +2,4 @@ package abc239
 
 import kotlin.math.sqrt
 
-fun main() {
-  val h = readLine()!!.toDouble()
-  println("${sqrt((h * (12800000 + h)))}")
-}
+fun main() = readLine()!!.toDouble().let { println("${sqrt((it * (12800000 + it)))}") }
