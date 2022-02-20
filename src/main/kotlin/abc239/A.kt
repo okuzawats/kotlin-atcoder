@@ -1,8 +1,8 @@
 package abc239
 
-import kotlin.math.pow
+import kotlin.math.sqrt
 
 fun main() {
   val h = readLine()!!.toLong()
-  println("${(h * (12800000 + h)).toDouble().pow(0.5)}")
+  println("${sqrt((h * (12800000 + h)).toDouble())}")
 }
