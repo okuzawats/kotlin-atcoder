@@ -8,8 +8,8 @@ fun main() {
   var m = 0.0
   for (i in 0 until n) {
     for (j in 0 until n) {
-      m = max(m, (p[i][0] - p[j][0]).toDouble().pow(2) + (p[i][1] - p[j][1]).toDouble().pow(2))
+      m = max(m, hypot((p[i][0] - p[j][0]).toDouble(), (p[i][1] - p[j][1]).toDouble()))
     }
   }
-  println(sqrt(m))
+  println(m)
 }
