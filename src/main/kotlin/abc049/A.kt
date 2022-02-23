@@ -1,3 +1,3 @@
 package abc049
 
-fun main() = println(if (setOf("a", "e", "i", "o", "u").contains(readLine())) "vowel" else "consonant")
+fun main() = println(if (readLine()!![0] in "aiueo") "vowel" else "consonant")
