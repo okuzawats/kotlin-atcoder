@@ -1,6 +1,3 @@
 package abc196
 
-fun main() {
-  val x = readLine()!!.split('.')
-  println(x[0])
-}
+fun main() = println(readLine()!!.split('.')[0])
