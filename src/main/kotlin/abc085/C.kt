@@ -5,7 +5,7 @@ fun main() {
   for (i in 0..n) {
     for (j in 0..(n - i)) {
       val k = n - i - j
-      if (i * 10000 + j * 5000 + k * 1000 == y) {
+      if (i * 10 + j * 5 + k == y / 1000) {
         println("$i $j $k")
         return
       }
