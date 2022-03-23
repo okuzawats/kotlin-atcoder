@@ -1,6 +1,3 @@
 package abc244
 
-fun main() {
-  readLine()
-  println(readLine()!!.takeLast(1))
-}
+fun main() { readLine(); println(readLine()!!.last()) }
